@@ -1,0 +1,6 @@
+com\squadstack\Parkinglot\repository\ParkingLotRepository.class
+com\squadstack\Parkinglot\service\ParkingLotService.class
+com\squadstack\Parkinglot\controller\ParkingLotController.class
+com\squadstack\Parkinglot\domain\ParkingLot.class
+com\squadstack\Parkinglot\service\Impl\ParkingLotServiceImpl.class
+com\squadstack\Parkinglot\ParkingLotApplication.class
