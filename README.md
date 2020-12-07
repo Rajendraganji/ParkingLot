@@ -12,7 +12,12 @@ Steps :
 5)	Open the terminal either in your IDE or command prompt terminal.
 6)	Go to inside project location and type the below command . (I’m taking test input file location from command line arguments. Output will be printed in terminal itself.)
 
+      To build and run  : commands
+      ***         mvn clean install -DskipTests         ***
       ***   mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="input test file path"  ***
+      
+      
 Example : 
-( C:\practise_projects\Parkinglot\Parkinglot>mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="C:\Users\ganjir\Desktop\input.txt"  )
+ (  C:\practise_projects\Parkinglot\Parkinglot>mvn clean install -DskipTests ) -----> for building the project
+( C:\practise_projects\Parkinglot\Parkinglot>mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="C:\Users\ganjir\Desktop\input.txt"  )   ---> For running project
 
