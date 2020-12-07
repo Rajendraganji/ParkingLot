@@ -21,5 +21,6 @@ Steps :
       
 Example : 
  (  C:\practise_projects\Parkinglot\Parkinglot>mvn clean install -DskipTests ) -----> for building the project
+ 
 ( C:\practise_projects\Parkinglot\Parkinglot>mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="C:\Users\ganjir\Desktop\input.txt"  )   ---> For running project
 
