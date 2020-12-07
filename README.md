@@ -10,8 +10,9 @@ Steps :
 3)	Clone the code from here. ( https://github.com/Rajendraganji/ParkingLot.git ) and I’m also sharing attachment of project zip file. 
 4)	You can also import the code straight into your IDE’s like Eclipse, Intellij IDEA etc.
 5)	Open the terminal either in your IDE or command prompt terminal.
-6)	Go to inside project location and type the below command . I’m taking test input file location from command line arguments. Output will be printed in terminal itself.
-        mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="input test file path" 
+6)	Go to inside project location and type the below command . (I’m taking test input file location from command line arguments. Output will be printed in terminal itself.)
+
+      ***   mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="input test file path"  ***
 Example : 
 ( C:\practise_projects\Parkinglot\Parkinglot>mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="C:\Users\ganjir\Desktop\input.txt"  )
 
