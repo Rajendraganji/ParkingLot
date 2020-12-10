@@ -6,6 +6,7 @@ Note :
 
 Steps :
 1)	Download and install JDK 1.8 or later. The following link has all the details/steps to install and configure this. (https://www.guru99.com/install-java.html) 
+i) Setting the JAVA_HOME Variable in Windows . The following link has all the details ( https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html )
 2)	Download and install maven latest version. The following link has all the details/steps to install and configure this. (https://www.javatpoint.com/how-to-install-maven )  
 3)	Clone the code from here. ( https://github.com/Rajendraganji/ParkingLot.git ) and I’m also sharing attachment of project zip file. 
 4)	You can also import the code straight into your IDE’s like Eclipse, Intellij IDEA etc.
@@ -23,4 +24,11 @@ Example :
  (  C:\practise_projects\Parkinglot\Parkinglot>mvn clean install -DskipTests ) -----> for building the project
  
 ( C:\practise_projects\Parkinglot\Parkinglot>mvn spring-boot:run -Dspring-boot.run.arguments=--inputfile.path="C:\Users\ganjir\Desktop\input.txt"  )   ---> For running project
+
+
+7) once you run this , you will get a output for the inputs you provided in file( input.txt ).
+
+8) To test the code with another text file , clicl CTRL+C and then click "y". Now you can use the same 2nd command provided in step 6 (mvn clean install -DskipTests is not needed)
+   
+   with new file location which you want to test.
 
