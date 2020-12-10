@@ -5,7 +5,8 @@ Note :
 2)	The technologies I used are Java , spring boot( embedded h2 database).
 
 Steps :
-1)	Download and install JDK 1.8 or later. The following link has all the details/steps to install and configure this. (https://www.guru99.com/install-java.html) 
+1)	Download and install JDK 1.8 or later. The following link has all the details/steps to install and configure this. (https://www.guru99.com/install-java.html).
+
 i) Setting the JAVA_HOME Variable in Windows . The following link has all the details ( https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html )
 2)	Download and install maven latest version. The following link has all the details/steps to install and configure this. (https://www.javatpoint.com/how-to-install-maven )  
 3)	Clone the code from here. ( https://github.com/Rajendraganji/ParkingLot.git ) and I’m also sharing attachment of project zip file. 
